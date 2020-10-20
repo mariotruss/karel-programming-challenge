@@ -1,0 +1,46 @@
+WIP
+
+void harvestTheField()
+{ 
+    pickUp();
+    leftTurn();
+    pickUp();
+    
+    
+}
+
+void forwardPick(){
+    moveForward();
+    pickBeeper();
+}
+
+void rightForwardLeft(){
+    turnRight();
+    moveForward();
+    turnLeft();
+}
+
+void pickUp(){
+    repeat (4){
+        forwardPick();
+        rightForwardLeft();   
+    }
+}
+
+void leftTurn(){
+    repeat (2){
+        repeat (2){
+            moveForward();   
+        }
+        turnLeft();   
+    }   
+}
+
+void rightTurn(){
+    repeat (2){
+        repeat (2){
+            moveForward();   
+        }
+        turnRight();   
+    }   
+}
