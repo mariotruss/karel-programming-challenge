@@ -1,0 +1,33 @@
+void mowTheLawn()
+{ 
+    repeat (2){
+        forwardMow();
+        leftTurn();
+        forwardMow();
+        rightTurn();
+    }
+    forwardMow();
+    leftTurn();
+    forwardMow();
+}
+
+void forwardMow (){
+    repeat (6){
+        moveForward();
+        pickBeeper();
+    }
+}
+
+void leftTurn() {
+    moveForward();
+    turnLeft();
+    moveForward();
+    turnLeft();
+}
+
+void rightTurn() {
+    moveForward();
+    turnRight();
+    moveForward();
+    turnRight();
+}
