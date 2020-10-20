@@ -1,0 +1,32 @@
+void saveTheFlower(){
+    repeat (4){
+        climb();  
+    }
+    moveForward();
+    dropBeeper();
+    repeat (4){
+        descend();
+    }
+    
+}
+
+void climb(){
+    moveForward();
+    if (onBeeper()){
+        pickBeeper();
+    }
+    turnLeft();
+    repeat (2){
+        moveForward();
+    }
+    turnRight();
+}
+
+void descend(){
+    moveForward();
+    turnRight();
+    repeat (2){
+        moveForward();
+    }
+    turnLeft();
+}

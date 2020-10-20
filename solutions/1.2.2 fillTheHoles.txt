@@ -1,0 +1,16 @@
+void fillTheHoles()
+{
+    repeat (4){
+        aroundCornerRight();
+        dropBeeper();
+        turnAround();
+        aroundCornerRight();
+        
+    }
+}
+
+void aroundCornerRight (){
+    moveForward();
+    turnRight();
+    moveForward();
+}
