@@ -1,5 +1,5 @@
 # Karel: Programming Challenge
-🤖 Karel is a coding challenge, created by fredoverflow, designed to teach the basic concepts of programming. Here are my solutions.
+🤖 Karel is a coding challenge, created by [Fredoverflow](https://github.com/fredoverflow), designed to teach the basic concepts of programming. Here are my solutions.
 
 ![Image of Karel](https://camo.githubusercontent.com/2e402bad54a64aefb97688c237e601cc0153e191/68747470733a2f2f692e696d6775722e636f6d2f454d4b496f68692e706e67)
 
